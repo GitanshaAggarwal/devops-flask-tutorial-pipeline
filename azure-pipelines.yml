@@ -35,8 +35,8 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      
       echo 'Hello world, The installation is starting'
+      
 - script: |
     pip install pytest pytest-azurepipelines
     pytest
